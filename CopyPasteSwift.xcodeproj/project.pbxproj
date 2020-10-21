@@ -68,6 +68,7 @@
 		6C1A2B05253F392E00E17321 /* UIView+Constrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constrains.swift"; sourceTree = "<group>"; };
 		6C1A2B07253F393600E17321 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		6C1A2B09253F393C00E17321 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		6C3F3CF52540F90400B4B1EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6C7760EB253F39EF009AEADD /* Reachiblity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachiblity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +100,7 @@
 		6C1A2AC0253F385D00E17321 = {
 			isa = PBXGroup;
 			children = (
+				6C3F3CF52540F90400B4B1EB /* README.md */,
 				6C1A2ACB253F385D00E17321 /* CopyPasteSwift */,
 				6C1A2AE2253F385E00E17321 /* CopyPasteSwiftTests */,
 				6C1A2AED253F385E00E17321 /* CopyPasteSwiftUITests */,
@@ -119,16 +121,12 @@
 		6C1A2ACB253F385D00E17321 /* CopyPasteSwift */ = {
 			isa = PBXGroup;
 			children = (
+				6C3F3CF72540F94200B4B1EB /* SupportingFiles */,
+				6C3F3CF62540F92E00B4B1EB /* Modules */,
 				6C1A2B0C253F395A00E17321 /* Components */,
 				6C1A2B0B253F394600E17321 /* Wrappers */,
 				6C1A2AFD253F387900E17321 /* UIKitExtensions */,
 				6C1A2AFC253F386400E17321 /* FoundationExtensions */,
-				6C1A2ACC253F385D00E17321 /* AppDelegate.swift */,
-				6C1A2ACE253F385D00E17321 /* SceneDelegate.swift */,
-				6C1A2AD0253F385D00E17321 /* ContentView.swift */,
-				6C1A2AD2253F385E00E17321 /* Assets.xcassets */,
-				6C1A2AD7253F385E00E17321 /* LaunchScreen.storyboard */,
-				6C1A2ADA253F385E00E17321 /* Info.plist */,
 				6C1A2AD4253F385E00E17321 /* Preview Content */,
 			);
 			path = CopyPasteSwift;
@@ -196,6 +194,26 @@
 				6C1A2B09253F393C00E17321 /* ImageDownloader.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		6C3F3CF62540F92E00B4B1EB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6C3F3CF72540F94200B4B1EB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6C1A2ADA253F385E00E17321 /* Info.plist */,
+				6C1A2ACC253F385D00E17321 /* AppDelegate.swift */,
+				6C1A2ACE253F385D00E17321 /* SceneDelegate.swift */,
+				6C1A2AD0253F385D00E17321 /* ContentView.swift */,
+				6C1A2AD2253F385E00E17321 /* Assets.xcassets */,
+				6C1A2AD7253F385E00E17321 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -510,7 +528,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CopyPasteSwift/Preview Content\"";
 				DEVELOPMENT_TEAM = 475YN7ANSF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CopyPasteSwift/Info.plist;
+				INFOPLIST_FILE = CopyPasteSwift/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,7 +548,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CopyPasteSwift/Preview Content\"";
 				DEVELOPMENT_TEAM = 475YN7ANSF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CopyPasteSwift/Info.plist;
+				INFOPLIST_FILE = CopyPasteSwift/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
