@@ -1,6 +1,6 @@
 # CopyPasteSwift
 <p align="left">
-  <img src="https://github.com/abuzeid-ibrahim/CopyPaste/tree/master/CopyPasteSwift/SupportingFiles/copypaste.png" title="CopyPaste">
+  <img src="https://github.com/abuzeid-ibrahim/CopyPaste/blob/master/CopyPasteSwift/SupportingFiles/copypaste.png" title="CopyPaste">
 </p>
 
 
