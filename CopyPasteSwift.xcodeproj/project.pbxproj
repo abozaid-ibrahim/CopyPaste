@@ -23,6 +23,12 @@
 		6C3F3D042540F9C500B4B1EB /* Pageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F3CFC2540F9BC00B4B1EB /* Pageable.swift */; };
 		6C3F3D082540F9C500B4B1EB /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F3D002540F9BC00B4B1EB /* NetworkError.swift */; };
 		6C3F3D0A2540FAF200B4B1EB /* copypaste.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3F3D092540FAF200B4B1EB /* copypaste.png */; };
+		6C5B9EAF25436C6C0096FB5F /* CoreData+Cachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B9EAA25436C220096FB5F /* CoreData+Cachable.swift */; };
+		6C5B9EB025436C6C0096FB5F /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B9EAD25436C220096FB5F /* Example.swift */; };
+		6C5B9EB125436C6C0096FB5F /* CoreDataCachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B9EAB25436C220096FB5F /* CoreDataCachable.swift */; };
+		6C5B9EB225436C6C0096FB5F /* CoreDataIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B9EAC25436C220096FB5F /* CoreDataIO.swift */; };
+		6C5B9EB525436CF80096FB5F /* TablesNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B9EB425436CF80096FB5F /* TablesNames.swift */; };
+		6C5B9EB725436D1E0096FB5F /* CoreDataIOType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B9EB625436D1E0096FB5F /* CoreDataIOType.swift */; };
 		6C7760E4253F39D9009AEADD /* UICollectionView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1A2AFF253F38A400E17321 /* UICollectionView+Cell.swift */; };
 		6C7760E5253F39D9009AEADD /* Data+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1A2B02253F392E00E17321 /* Data+Codable.swift */; };
 		6C7760E6253F39D9009AEADD /* UITableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1A2B03253F392E00E17321 /* UITableView+Cell.swift */; };
@@ -81,6 +87,12 @@
 		6C3F3CFC2540F9BC00B4B1EB /* Pageable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pageable.swift; sourceTree = "<group>"; };
 		6C3F3D002540F9BC00B4B1EB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		6C3F3D092540FAF200B4B1EB /* copypaste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copypaste.png; sourceTree = "<group>"; };
+		6C5B9EAA25436C220096FB5F /* CoreData+Cachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreData+Cachable.swift"; sourceTree = "<group>"; };
+		6C5B9EAB25436C220096FB5F /* CoreDataCachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCachable.swift; sourceTree = "<group>"; };
+		6C5B9EAC25436C220096FB5F /* CoreDataIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataIO.swift; sourceTree = "<group>"; };
+		6C5B9EAD25436C220096FB5F /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		6C5B9EB425436CF80096FB5F /* TablesNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesNames.swift; sourceTree = "<group>"; };
+		6C5B9EB625436D1E0096FB5F /* CoreDataIOType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataIOType.swift; sourceTree = "<group>"; };
 		6C7760EB253F39EF009AEADD /* Reachiblity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachiblity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,6 +223,8 @@
 		6C3F3CF62540F92E00B4B1EB /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				6C5B9EA925436C010096FB5F /* SQLiteInterface */,
+				6C5B9EA825436BF40096FB5F /* CoreDataWrapper */,
 				6C3F3CF82540F9BC00B4B1EB /* Network */,
 			);
 			path = Modules;
@@ -240,6 +254,26 @@
 				6C3F3D002540F9BC00B4B1EB /* NetworkError.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		6C5B9EA825436BF40096FB5F /* CoreDataWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				6C5B9EB425436CF80096FB5F /* TablesNames.swift */,
+				6C5B9EB625436D1E0096FB5F /* CoreDataIOType.swift */,
+				6C5B9EAC25436C220096FB5F /* CoreDataIO.swift */,
+				6C5B9EAA25436C220096FB5F /* CoreData+Cachable.swift */,
+				6C5B9EAB25436C220096FB5F /* CoreDataCachable.swift */,
+				6C5B9EAD25436C220096FB5F /* Example.swift */,
+			);
+			path = CoreDataWrapper;
+			sourceTree = "<group>";
+		};
+		6C5B9EA925436C010096FB5F /* SQLiteInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SQLiteInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,13 +416,19 @@
 				6C1A2ACD253F385D00E17321 /* AppDelegate.swift in Sources */,
 				6C1A2B0A253F393C00E17321 /* ImageDownloader.swift in Sources */,
 				6C7760EC253F39F0009AEADD /* Reachiblity.swift in Sources */,
+				6C5B9EB225436C6C0096FB5F /* CoreDataIO.swift in Sources */,
 				6C7760E8253F39D9009AEADD /* UIView+Layer.swift in Sources */,
+				6C5B9EB725436D1E0096FB5F /* CoreDataIOType.swift in Sources */,
 				6C1A2ACF253F385D00E17321 /* SceneDelegate.swift in Sources */,
 				6C7760E6253F39D9009AEADD /* UITableView+Cell.swift in Sources */,
 				6C1A2AD1253F385D00E17321 /* ContentView.swift in Sources */,
+				6C5B9EB025436C6C0096FB5F /* Example.swift in Sources */,
 				6C3F3D022540F9C500B4B1EB /* APIConstants.swift in Sources */,
 				6C3F3D082540F9C500B4B1EB /* NetworkError.swift in Sources */,
 				6C7760EA253F39D9009AEADD /* UIViewController+Error.swift in Sources */,
+				6C5B9EB125436C6C0096FB5F /* CoreDataCachable.swift in Sources */,
+				6C5B9EB525436CF80096FB5F /* TablesNames.swift in Sources */,
+				6C5B9EAF25436C6C0096FB5F /* CoreData+Cachable.swift in Sources */,
 				6C1A2B08253F393600E17321 /* Logger.swift in Sources */,
 				6C7760E7253F39D9009AEADD /* UIView+Constrains.swift in Sources */,
 				6C3F3D032540F9C500B4B1EB /* RequestBuilder.swift in Sources */,
